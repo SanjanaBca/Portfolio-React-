@@ -49,7 +49,7 @@ function Home() {
 
 
           </div>
-            <a href="/My-portfolio/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
             <button>Hire Me</button>
           </a>
         </div>
