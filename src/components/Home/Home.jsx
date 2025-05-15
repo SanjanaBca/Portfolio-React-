@@ -49,9 +49,11 @@ function Home() {
 
 
           </div>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-            <button>Hire Me</button>
-          </a>
+          <button onClick={() => window.open('/resume.pdf', '_blank')}>
+  Hire Me
+</button>
+
+
         </div>
       </div>
     <div className="righthome">

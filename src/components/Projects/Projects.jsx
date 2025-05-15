@@ -3,9 +3,8 @@ import Card from '../Card/Card'
 import "./Projects.css"
 import amazon from "../../assets/amazon.png"
 import portfolio from "../../assets/portfolio.png"
-import codingNinjas from "../../assets/codingNinjas.png"
 import myntra from "../../assets/myntra.png"
-import tti from "../../assets/tti.png"
+import PasteApp from "../../assets/PasteApp.png"
 import {useGSAP} from "@gsap/react"
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
@@ -45,11 +44,10 @@ function Projects() {
     <div id="projects"> 
       <h1 id="para">EXPERIENCED IN PROJECTS</h1>
       <div className="slider">
-<Card title="AMAZON CLONE" image={amazon}/>
+<Card title="PASTE APP" image={PasteApp}/>
 <Card title="PERSONAL PORTFOLIO WEBSITE" image={portfolio}/>
-<Card title="CODING NINJAS WEBSITE CLONE" image={codingNinjas} />
 <Card title="MYNTRA CLONE" image={myntra}/> 
-<Card title="AI TEXT TO IMAGE GENERATOR" image={tti}/>
+<Card title="AMAZON CLONE" image={amazon}/>
       </div>
     </div>
   )
